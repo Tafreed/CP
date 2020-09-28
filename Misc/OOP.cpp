@@ -93,7 +93,7 @@ class grandchild : public child1, public child2{
 
 int main(){
     grandchild G(1,2,3,4),G1(5,6,7,8),G2;
-    //-G;
+    -G;
     G.getValueg1();
     G2 = G1 + G;
     cout << endl;
