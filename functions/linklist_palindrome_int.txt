@@ -1,0 +1,17 @@
+bool isPalindrome(Node head)
+{
+    struct Node temp = new Node(NULL);
+    temp=head;
+    int i=0,r=0;
+    int base=1;
+    while(temp!=NULL){
+        i=i10 + temp-data;
+        r=((temp-data))base+r;
+        base=10;
+        temp=temp-next;
+    }
+    if(r==i)
+    return true;
+    return false;
+    
+}
