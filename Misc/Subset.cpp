@@ -4,8 +4,6 @@ using namespace std;
 int main(){
     string s = "ABCDEF";
     int t,n;
-    cin >> t;
-    while(t--){
         cin >> n;
         int len = 1<<n;            //len = pow(2,n)
         for(int x=0;x<len;x++){
@@ -16,5 +14,4 @@ int main(){
             }
             cout << endl;
         }
-    }
 }
